@@ -1,4 +1,6 @@
-# Introduction
+# Movie Recommender
+
+## Introduction
 
 Recommending movies to users based on their on interest or similar movies similar to one particular movie. Here we attempt to solve this problem based on some famous approaches used in this area,User-Based Collaborative Filtering which uses and takes into account the users’ preferences and already watched movies in order to recommend similar movies.  Also Item-Based Collaborative Filtering, this approach takes the movies’ ratings and recommends the most similar moviesto it based on the features we have like the rating maybe the popularity.
 <br><br>Later we explore some purposed ideas of our own to strengthen the recommendations and letting the user have more  control  over  the  recommendations  filter  by  genres  and  movie  language,  we  achieve  this  kind  of  conditional recommendation by weighting some features in the latent feature vector before constructing the correlation matrix.
